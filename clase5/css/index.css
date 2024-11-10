@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(112, 109, 109);
+    text-decoration: none; 
+    
+}
+
+h2{
+    color: rgb(28, 29, 27);
+    background-color: aqua;
+  }
+
+  .titulo_{
+    color: rgb(148, 92, 23);
+    background-color: blanchedalmond;
+  }
+
+#lista_ord{
+    color: gold;
+    background-color: blueviolet;
+}
+main ul {
+    margin: 6;
+    padding: 2%;   
+}
+main h3{
+    border: 2px solid black;
+}
+
+main{
+    border: 2px solid black;
+    margin: 2%;
+}
+
+section{
+    border: 2px solid rgb(77, 20, 20);
+}
+footer{
+margin: 1%;
+text-align: center;
+background-color: blueviolet;
+font-family: Verdana, Tahoma, sans-serif;
+}

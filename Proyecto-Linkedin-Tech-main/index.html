@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a mi perfil profesional</h1>
+            <p>Aquí puedes encontrar información sobre mi carrera, productos y opiniones de mis clientes.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Mis Productos</h2>
+            <div class="productos-grid">
+                <div class="card">
+                    <img src="assets/producto1.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>Descripción del producto.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/producto2.jpg" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>Descripción del producto.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <p>"Gran servicio y productos de alta calidad."</p>
+                    <p>- Cliente 1</p>
+                </div>
+                <div class="reseña">
+                    <p>"Una excelente experiencia de compra."</p>
+                    <p>- Cliente 2</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Perfil Profesional - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

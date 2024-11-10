@@ -1,0 +1,321 @@
+*{
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+ /* AGREGAR AL MENOS 1 MEDIA QUERY*/
+body{
+
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../multimedia/salacine.jpg) no-repeat center center fixed;
+    background-position:center;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.body_info{
+    background-image: radial-gradient(red 5%, black);
+}
+
+.body_contacto{
+    background-image: radial-gradient(red 5%, black);
+}
+
+/* ------------CSS INDEX ------------------- */
+.cuadro_sup{
+    display: flex;
+    min-height: 70px;
+    font-size: clamp(1rem, 5vw, 2.0em);
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgb(255, 47, 78);
+    background-color: black;
+   justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    margin-bottom: auto;
+}
+header .logo_texto{
+    display: flex;
+}
+.imagen_logo{
+    margin:auto;
+}
+
+.index_titulo a{
+   color: rgb(158, 28, 28);
+ padding-right:auto;
+}
+
+.titulologo{
+    text-shadow: 2px 3px 10px;
+    margin-left: auto;
+    color: rgb(158, 28, 28);
+}
+/* */
+.presentacion h1{
+   font-size: clamp(2rem, 5vw, 3.5em);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 1px 2px 30px #d0c8c3;  
+      
+}
+
+/*PROBAR CLAMP PARA BAJAR TAMAÑO DE LETRA PARA EL RESPONSIVE */ 
+
+
+.presentacion h2,h3{
+   font-size: clamp(1rem, 5vw, 2.5em);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 1px 2px 30px #d0c8c3;  
+}
+
+.presentacion h1,h2,h3{
+   font-family: "Rubik Wet Paint", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: rgb(98, 39, 13);
+   
+}
+.menu_generos button{
+    font-size: clamp(1em, 5vw, 1.25em);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(22, 22, 29);
+    box-shadow: 2px 2px 10px rgb(255, 47, 78);
+    color: rgb(0,0,0);
+    background-color: rgb(246, 247, 243);
+    padding-right: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.cuadro_sup .index_titulo a:hover{color: rgb(151, 113, 26);}
+
+button:hover{  background-image: radial-gradient(red 5%, black); }
+
+ .menu_generos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 25px #d0c8c3;  
+    margin: auto;
+ }
+
+ .titulo_generos{
+   font-size: clamp(1rem, 7vw, 2.5em);
+    color: rgb(98, 39, 13);
+    font-family: "Rubik Wet Paint", system-ui;
+   font-weight: 400;
+   font-style: normal; 
+ }
+
+ .footertotal{
+   font-size: clamp(0.5em, 5vw, 1.0em);
+    display: flex;
+    min-height: 50px;
+     font-weight: bold;
+   border: 2px solid rgb(133, 44, 17);
+    box-shadow: 3px 3px 10px rgb(255, 47, 78);
+    background-color: black;
+    justify-content: space-between; 
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+ }
+
+ .footertotal p{
+    text-shadow: 2px 3px 10px;
+    margin-left: 10px;
+    color: rgb(158, 28, 28);
+ }
+
+ .links_footer{
+   margin-right: 10px;
+ }
+
+.links_footer a{
+   color: rgb(158, 28, 28);
+ padding-right: 7px;
+}
+
+ /*------------ CSS DE LA CLASE INFO------------*/
+
+ .menu_info{
+    font-size: clamp(1rem, 5vw, 1.99em);
+    font-weight: bold;
+ }
+ .menu_info p{
+    display: grid;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    color: rgb(33, 30, 30);
+    font-family: "Rubik Wet Paint", system-ui;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+ .primer_p{
+    font-size: 2.4em;
+ }
+
+/*--------CSS CLASE CONTACTO-------*/
+
+/*AGREGAR LOGOS A LOS TEXTOS */
+
+
+ .texto_contacto{
+   font-size: clamp(1rem, 5vw, 2.0em);
+   display: grid;
+    text-align: center;
+    font-weight: lighter;
+ /*chequear padding*/
+}
+
+.texto_contacto p{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+ 
+#formulario{
+    display:grid;
+    font-weight: bold;
+   justify-content:center;
+   justify-items: center;
+   
+}
+
+.form{
+    padding: 2% 20%;
+    border-radius: 4px;
+    font-size: clamp(1rem, 5vw, 1.8em);
+}
+
+.form_titulo{font-size: clamp(1rem, 5vw, 2.1em);
+}
+
+input[type=text], input[type=email], textarea{
+    width: 80%;
+  border-radius: 3px;
+  padding: 2%;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgb(255, 47, 78);
+  font-size: clamp(0.7rem, 0rem + 1.6vi, 1.5rem);
+  margin: 1% 0;
+}
+
+label{
+    text-align: center;
+    display:inline-block;
+}
+
+ .boton_enviar{
+   font-size: clamp(0.7em, 0rem + 1.6vi, 1.5em);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(22, 22, 29);
+    box-shadow: 2px 2px 10px rgb(255, 47, 78);
+    color: rgb(0,0,0);
+    background-color: rgb(246, 247, 243);
+    width: auto; 
+    cursor: pointer;
+ }
+
+ /*----------CSS CLASES DE GENEROS------------*/
+
+/*PROBAR PROPIEDAD OVERFLOW SCROLL O AUTO PARA LAS CARTAS */
+
+ .menu_cartas{
+   display: inline-block;
+    /*max-width:1100px */
+    width: auto;
+    height: auto;
+ }
+
+ .carta{
+   display:inline-block;
+    margin: 15px;
+    border-radius: 6px;
+   background: #635e96;
+   box-shadow: 0px 1px 10px rgba(0,0,0,2);
+   cursor: default;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   height: 650px;
+   width: 31%;
+   overflow: auto;
+ }
+
+ .carta:hover{
+box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+transform: translateY(-3%);
+ }
+
+ .carta p{
+   font-size: clamp(1rem, 5vw, 1.1em);
+    line-height: 1.5;
+    padding: 0px 5px 0px 5px;
+    margin-top: auto;
+} 
+
+.carta img {
+   height: 540px;
+   box-shadow: 0px 1px 10px rgba(0,0,0,2);
+    }
+
+
+ .carta h4{
+   font-weight:bolder;
+   font-size: clamp(1rem, 5vw, 1.5em);
+   color: rgb(82, 28, 12);
+   margin-top: auto;
+ }
+
+.links_pelis ul{
+   font-size: clamp(1rem, 5vw, 1.3em);
+   line-height: 1.5;
+}
+
+.links_pelis ul a{
+   color: rgb(20, 17, 17);
+   font-weight: bold;
+}
+
+.links_pelis ul a:hover{  color: rgb(151, 113, 26); }
+
+/* ---------------MEDIA QUERIS --------------- */
+
+@media (max-width:700px) {
+   .cuadro_sup{
+      flex-direction: column;
+   }
+   .footertotal{
+flex-direction: column;
+   }
+   .menu_generos{
+      flex-direction: column;
+   }
+   .menu_cartas{
+      display: grid;
+      flex-direction: column;
+   }
+   .carta{
+width: auto;
+height: auto;
+   }
+   .carta img{
+      width: 70%;
+      height: 50%;
+   }
+ }
+
